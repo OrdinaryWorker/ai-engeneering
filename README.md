@@ -1,23 +1,23 @@
 # ai-engeneering
 
-Учебный репозиторий 14-недельного курса AI-инженерии: от основ LLM до RAG, агентов и эксплуатации. Модели запускаются локально (Ollama на рабочей станции), все вызовы модели идут через `llm/client.py` (появится в конце недели 1).
+Учебный репозиторий курса AI-инженерии: от основ LLM до RAG, агентов и эксплуатации. Курс идёт спринтами без привязки ко времени: спринт закрывается, когда его темы пройдены. Модели запускаются локально (Ollama на рабочей станции), все вызовы модели идут через `llm/client.py` (появится в конце спринта 1).
 
 ## Структура
 
 | Папка | Что там |
 |---|---|
-| `week-01/` | Неделя 1: как устроены LLM, первый вызов локальной модели |
-| `week-01/toy-llm/` | Игрушечная LLM на чистом Python: n-граммы и мини-трансформер |
+| `sprint-01-llm-basics/` | Спринт 1: как устроены LLM, первый вызов локальной модели |
+| `sprint-01-llm-basics/toy-llm/` | Игрушечная LLM на чистом Python: n-граммы и мини-трансформер |
 | `docs/` | Справочные материалы: разборы статей и т.п. |
 
-## Неделя 1
+## Спринт 1: основы LLM
 
-- [00-ai-agents-ai-engineering.md](week-01/00-ai-agents-ai-engineering.md): AI, LLM, агенты, AI-инженерия, квантование
-- [01-monday-llm-basics.md](week-01/01-monday-llm-basics.md): токены, контекстное окно, temperature, галлюцинации
-- [01b-monday-tokenizer-transformer.md](week-01/01b-monday-tokenizer-transformer.md): как устроена LLM, путь одного запроса
-- [02-tuesday-ollama-setup.md](week-01/02-tuesday-ollama-setup.md): драйвер, Ollama, модель, SSH-туннель, первый вызов
-- [toy-llm/](week-01/toy-llm/README.md): игрушечная LLM, только стандартная библиотека
-- [toy_bpe.py](week-01/toy_bpe.py): игрушечный BPE-токенизатор
+- [00-ai-agents-ai-engineering.md](sprint-01-llm-basics/00-ai-agents-ai-engineering.md): AI, LLM, агенты, AI-инженерия, квантование
+- [01-llm-basics.md](sprint-01-llm-basics/01-llm-basics.md): токены, контекстное окно, temperature, галлюцинации
+- [02-how-llm-works.md](sprint-01-llm-basics/02-how-llm-works.md): как устроена LLM, путь одного запроса
+- [03-ollama-setup.md](sprint-01-llm-basics/03-ollama-setup.md): драйвер, Ollama, модель, SSH-туннель, первый вызов
+- [toy-llm/](sprint-01-llm-basics/toy-llm/README.md): игрушечная LLM, только стандартная библиотека
+- [toy_bpe.py](sprint-01-llm-basics/toy_bpe.py): игрушечный BPE-токенизатор
 
 ## Документы
 
