@@ -14,7 +14,7 @@
 
 - [00-ai-agents-ai-engineering.md](sprint-01-llm-basics/00-ai-agents-ai-engineering.md): AI, LLM, агенты, AI-инженерия, квантование
 - [01-llm-basics.md](sprint-01-llm-basics/01-llm-basics.md): урок 1 — что такое LLM, из чего состоит, трансформер по частям, контекст, temperature, галлюцинации
-- [02-how-llm-works.md](sprint-01-llm-basics/02-how-llm-works.md): как устроена LLM, путь одного запроса
+- [02-how-llm-works.md](sprint-01-llm-basics/02-how-llm-works.md): урок 2 — путь одного запроса от твоего кода до ответа: prefill, decode, KV-кэш, память и время
 - [03-ollama-setup.md](sprint-01-llm-basics/03-ollama-setup.md): драйвер, Ollama, модель, SSH-туннель, первый вызов
 - [toy-llm/](sprint-01-llm-basics/toy-llm/README.md): игрушечная LLM, только стандартная библиотека
 - [toy_bpe.py](sprint-01-llm-basics/toy_bpe.py): игрушечный BPE-токенизатор
