@@ -315,5 +315,5 @@ KV-кэш резервируется под всё окно заранее. Дл
 
 ## Практика
 
-1. Запусти учебный прототип [toy-llm](toy-llm/README.md): `python3 main.py chat "кто доставил заказ?"` и `python3 main.py demo`. Лог в консоли идёт по тем же этапам 1–8, что и этот урок. В README прототипа есть таблица соответствия этапов и кода и задания.
+1. Запусти учебный прототип [toy-llm](practice/toy-llm/README.md): `python3 main.py chat "кто доставил заказ?"` и `python3 main.py demo`. Лог в консоли идёт по тем же этапам 1–8, что и этот урок. В README прототипа есть таблица соответствия этапов и кода и задания.
 2. Поставь `pip install transformers` и загрузи настоящий токенизатор: `AutoTokenizer.from_pretrained("openai/gpt-oss-20b")` (или Qwen). Посмотри размер словаря `len(tok)`, разбиение `tok.tokenize("Пользователь оформил заказ")` и то же на английском. Посмотри, во что превращается сообщение: `tok.apply_chat_template([{"role": "user", "content": "Привет"}], tokenize=False)`.

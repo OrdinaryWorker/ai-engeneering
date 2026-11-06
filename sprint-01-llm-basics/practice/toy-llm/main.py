@@ -8,10 +8,10 @@
 import argparse
 from pathlib import Path
 
-from toy_llm import InferenceEngine, Tokenizer, ToyLLM
-from toy_llm.data import DIALOGS
-from toy_llm.logs import log, stage
-from toy_llm.training import train
+from src import InferenceEngine, Tokenizer, ToyLLM
+from src.data import DIALOGS
+from src.logs import log, stage
+from src.training import train
 
 WEIGHTS_FILE = Path(__file__).parent / "weights.json"
 

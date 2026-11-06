@@ -16,7 +16,7 @@
 - [01-llm-basics.md](sprint-01-llm-basics/01-llm-basics.md): урок 1 — что такое LLM, из чего состоит, трансформер по частям, контекст, temperature, галлюцинации
 - [02-how-llm-works.md](sprint-01-llm-basics/02-how-llm-works.md): урок 2 — путь одного запроса от твоего кода до ответа: prefill, decode, KV-кэш, память и время
 - [03-ollama-setup.md](sprint-01-llm-basics/03-ollama-setup.md): драйвер, Ollama, модель, SSH-туннель, первый вызов
-- [toy-llm/](sprint-01-llm-basics/toy-llm/README.md): учебный прототип ToyLLM — токенизатор, трансформер, KV-кэш, prefill и decode с подробным логом
+- [toy-llm/](sprint-01-llm-basics/practice/toy-llm/README.md): учебный прототип ToyLLM — токенизатор, трансформер, KV-кэш, prefill и decode с подробным логом
 
 ## Документы
 
