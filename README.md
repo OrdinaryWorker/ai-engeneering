@@ -16,7 +16,8 @@
 - [00-ai-agents-ai-engineering.md](sprint-01-llm-basics/00-ai-agents-ai-engineering.md): AI, LLM, агенты, AI-инженерия, квантование
 - [01-llm-basics.md](sprint-01-llm-basics/01-llm-basics.md): урок 1 — что такое LLM, из чего состоит, трансформер по частям, контекст, temperature, галлюцинации
 - [02-how-llm-works.md](sprint-01-llm-basics/02-how-llm-works.md): урок 2 — путь одного запроса от твоего кода до ответа: prefill, decode, KV-кэш, память и время
-- [03-ollama-setup.md](sprint-01-llm-basics/03-ollama-setup.md): драйвер, Ollama, модель, SSH-туннель, первый вызов
+- [03-ai-engineering-landscape.md](sprint-01-llm-basics/03-ai-engineering-landscape.md): урок 3 — обзор области: вызов модели, structured output, tools, агенты, RAG, MCP, фреймворки на Python, сводная таблица задач и сложности
+- [04-ollama-setup.md](sprint-01-llm-basics/04-ollama-setup.md): драйвер, Ollama, модель, SSH-туннель, первый вызов
 - [primitive-llm/](sprint-01-llm-basics/practice/primitive-llm/README.md): примитивная языковая модель на `dict` — следующее слово по частотам, temperature
 - [toy-llm/](sprint-01-llm-basics/practice/toy-llm/README.md): учебный прототип ToyLLM — токенизатор, трансформер, KV-кэш, prefill и decode с подробным логом
 
