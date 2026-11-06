@@ -504,11 +504,6 @@ Softmax → вероятности                │
 
 </details>
 
-## Практика
-
-1. Прочитай и запусти [toy_bpe.py](toy_bpe.py). Добавь в корпус больше русского текста и посмотри, как изменится число токенов.
-2. Поставь `pip install transformers` и загрузи настоящий токенизатор: `AutoTokenizer.from_pretrained("openai/gpt-oss-20b")` (или Qwen). Посмотри размер словаря `len(tok)`, разбиение `tok.tokenize("Пользователь оформил заказ")` и то же на английском. Посмотри, во что превращается сообщение: `tok.apply_chat_template([{"role": "user", "content": "Привет"}], tokenize=False)`.
-
 ## Что посмотреть
 
 - 3Blue1Brown, серия «Neural networks», главы про трансформеры и внимание (YouTube): лучшая визуализация, начни с неё.
