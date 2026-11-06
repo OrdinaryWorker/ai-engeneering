@@ -1,4 +1,4 @@
-"""Шаг 1. Самая простая «языковая модель»: подсчёт, что за чем идёт.
+"""Примитивная «языковая модель»: подсчёт, что за чем идёт.
 
 Только встроенные типы: dict, list, re, random.
 Идея та же, что у LLM: по предыдущим токенам предсказать следующий.
@@ -9,6 +9,7 @@ import math
 import random
 import re
 from collections import Counter, defaultdict
+from pathlib import Path
 
 N = 2  # сколько предыдущих токенов модель «видит» (размер её контекстного окна)
 BOS, EOS = "<s>", "</s>"  # специальные токены: начало и конец текста
@@ -16,7 +17,7 @@ BOS, EOS = "<s>", "</s>"  # специальные токены: начало и
 
 # --- 1. Токенизатор -------------------------------------------------------
 # Упрощение: токен = слово или знак препинания. Настоящий токенизатор режет
-# на куски слов (см. src/tokenizer.py), но для идеи это не важно.
+# на куски слов (см. ../toy-llm/src/tokenizer.py), но для идеи это не важно.
 def tokenize(text: str) -> list[str]:
     return re.findall(r"\w+|[^\w\s]", text.lower())
 
@@ -60,7 +61,7 @@ def generate(model, prompt: str, temperature: float = 1.0, max_tokens: int = 20)
 
 if __name__ == "__main__":
     random.seed(0)
-    with open("corpus.txt", encoding="utf-8") as f:
+    with open(Path(__file__).parent / "corpus.txt", encoding="utf-8") as f:
         lines = [line.strip() for line in f if line.strip()]
     model = train(lines)
 

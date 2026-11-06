@@ -1,6 +1,6 @@
 """Командная строка ToyLLM.
 
-Запуск (из папки toy-llm):
+Запуск из папки practice/toy-llm (или с полным путём к main.py из любой папки):
   python3 main.py train                      # обучение, ~4 минуты; сохраняет weights.json
   python3 main.py chat "кто доставил заказ?" # инференс одного запроса с подробным логом
   python3 main.py demo                       # сценарии: запрос, второй ход диалога, temperature, max_tokens
